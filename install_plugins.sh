@@ -39,6 +39,12 @@ git clone https://github.com/LeviticusMB/bestest_timer
 echo "Redmine Login Audit"
 git clone https://github.com/martin-denizet/redmine_login_audit.git
 
+echo "Sidebar Hide"
+git clone https://github.com/bdemirkir/sidebar_hide.git
+
+echo "Niko-Niko"
+git clone https://github.com/yuuu/redmine_nikoca_re.git
+
 echo "Finalizado a instalação de plugins"
 
 cd ..
