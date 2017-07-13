@@ -39,9 +39,7 @@ git clone https://github.com/LeviticusMB/bestest_timer
 echo "Redmine Login Audit"
 git clone https://github.com/martin-denizet/redmine_login_audit.git
 
-cd ..
 echo "Finalizado a instalação de plugins"
-echo ""
 
 cd ..
 echo "---INICIANDO bundle install test---"
