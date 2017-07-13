@@ -1,0 +1,8 @@
+production:
+  adapter: "postgresql"
+  host: "postgres"
+  port: "5432"
+  username: "redmine"
+  password: "secret"
+  database: "redmine"
+  encoding: "utf8"
