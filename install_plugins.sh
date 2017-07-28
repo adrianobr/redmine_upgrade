@@ -7,11 +7,16 @@ apt-get install build-essential
 #echo "Instalando o libstdc++6"
 apt-get install libstdc++6
 
+echo "Atualizando Locales"
 apt-get purge locales
 apt-get install locales
 dpkg-reconfigure locales
 
+echo "Configurando Data e Hora"
 dpkg-reconfigure tzdata
+
+echo "Instalando VI"
+apt-get install vim
 
 cd plugins
 
