@@ -11,6 +11,8 @@ apt-get purge locales
 apt-get install locales
 dpkg-reconfigure locales
 
+dpkg-reconfigure tzdata
+
 cd plugins
 
 echo "Progressive Projects"
