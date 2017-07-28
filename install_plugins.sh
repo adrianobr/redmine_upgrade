@@ -7,6 +7,10 @@ apt-get install build-essential
 #echo "Instalando o libstdc++6"
 apt-get install libstdc++6
 
+apt-get purge locales
+apt-get install locales
+dpkg-reconfigure locales
+
 cd plugins
 
 echo "Progressive Projects"
