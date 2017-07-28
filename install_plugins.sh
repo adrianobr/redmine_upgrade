@@ -56,6 +56,9 @@ git clone https://github.com/bdemirkir/sidebar_hide.git
 echo "Niko-Niko"
 git clone https://github.com/yuuu/redmine_nikoca_re.git
 
+echo "Redmine Tags"
+git clone https://github.com/ixti/redmine_tags.git
+
 echo "Finalizado a instalação de plugins"
 
 cd ..
