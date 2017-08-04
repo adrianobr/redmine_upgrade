@@ -1,0 +1,131 @@
+# Portuguese strings go here for Rails i18n
+pt:
+  label_agile: Ágil
+  label_agile_board: Quadro Ágil
+  label_agile_board_plural: Quadros Ágeis
+  label_agile_board_thumbnails: Miniaturas
+  label_agile_board_more_issues: Mais tarefas
+  error_agile_status_transition: Não é possível alterar o status da tarefa
+  label_agile_board_new: Novo quadro ágil
+  label_agile_board_edit: Editar quadro ágil
+  label_agile_my_boards: Meus Quadros Ágeis
+  label_agile_issue_id: ID tarefa
+
+  permission_manage_public_agile_queries: Gerenciar quadros ágeis públicos
+  permission_add_agile_queries: Adicionar quadros ágeis
+  permission_view_agile_queries: Ver quadros ágeis
+
+  #1.1.0
+  label_agile_board_default_fields: Campos padrão do cartão
+  label_agile_charts_issues_burndown: Burndown tarefas
+  label_agile_charts_work_burndown_hours: Burndown horas
+  label_agile_charts_work_burndown_sp: Burndown pontos por história
+  label_agile_charts_number_of_hours: Número de horas
+  label_agile_charts_number_of_issues: Número de tarefas
+  label_agile_charts_cumulative_flow: Fluxo acumulado
+  label_agile_charts_trackers_cumulative_flow: Fluxo cumulativo de tipos
+  label_agile_charts_issues_velocity: Velocidade
+  label_agile_charts_lead_time: Tempo de espera
+  label_agile_charts_average_lead_time: Tempo médio de espera
+  label_agile_chart_plural: Gráficos Ágeis
+  permission_view_agile_charts: Ver gráficos ágeis
+  label_agile_ideal_work_remaining: Ideal
+  label_agile_actual_work_remaining: Atual
+  label_agile_chart: Gráfico
+  label_agile_date_from: De
+  label_agile_date_to: Até
+  label_agile_chart_dates: Intervalo do gráfico
+  label_agile_weighed_ideal_work_remaining: Ideal ponderado
+  label_agile_status_colors: Cor do status
+  label_agile_charts_burnup: Burnup de tarefas
+  label_agile_charts_number_of_days: Número de dias
+  label_agile_too_many_items: "O gráfico não pode ser criado porque excede o número máximo de itens que podem ser exibidos (%{max})"
+  label_agile_time_reports_items_limit: Taxa de limite de mapas baseadas em entradas de tempo
+  label_agile_total_work_remaining: Total
+  label_agile_default_chart: Versão padrão do gráfico
+
+  #1.1.1
+  label_agile_charts_average_velocity: Velocidade média
+  label_agile_charts_avarate_number_of_issues: Número médio de tarefas
+  label_agile_charts_avarate_number_of_hours: Número médio de horas
+
+  #1.2.0
+  label_agile_color: Cor
+  permission_manage_agile_verions: Gerenciar planejamento da versão
+  label_agile_version_planning: Planejar versão
+  error_agile_version_transition: Não é possível alterar a versão da tarefa
+  label_agile_tracker_colors: Cores para tipos
+  label_agile_issue_priority_colors: Cores prioridade de tarefa
+  label_agile_color_based_on: Colorir por
+  label_agile_color_no_colors: Sem cores
+  label_agile_manage_colors: Gerenciar cores
+  label_agile_fullscreen: Expandir
+  label_agile_no_version_issues: Tarefas sem versão
+  label_agile_charts_work_burnup_hours: Burnup horas
+  label_agile_charts_work_burnup_sp: Burnup pontos por história
+  label_agile_completed: Completado
+  label_agile_exclude_weekends: Excluir fins de semana do planejamento
+  label_agile_board_truncated: "A quadro foi truncado porque excede o número máximo de itens que podem ser exibidos (%{max})"
+  label_agile_board_items_limit: Limite de itens do quadro ágil
+  label_agile_swimlanes: Divisões
+  label_agile_minimize_closed: Minimizar tarefas fechadas
+  label_agile_fields: Campos do cartão
+  label_agile_default_board: Quadro padrão
+
+  #1.3.6
+  text_agile_move_not_possible: Esse movimento não é possível
+
+  #1.3.8
+  label_agile_parent_issue_tracker_id: Tipo pai
+  label_agile_sub_issues: Sub-problemas
+  label_agile_color_green: Verde
+  label_agile_color_blue: Azul
+  label_agile_color_turquoise: Turquesa
+  label_agile_color_lightgreen: Luz verde
+  label_agile_color_yellow: Amarelo
+  label_agile_color_orange: Laranja
+  label_agile_color_red: Vermelho
+  label_agile_color_purple: Roxa
+  label_agile_color_gray: Cinza
+  label_agile_has_sub_issues: Tem sub-tarefas
+  label_agile_light_free_version: Versão gratuita da Agile Light
+  label_agile_link_to_pro: Atualização para versão PRO
+  label_agile_link_to_pro_demo: Demonstração da versão PRO
+  label_agile_link_to_more_plugins: Encontre mais plugins RedmineUP
+  label_agile_button_agree: Aceitar
+  label_agile_license: Licensa RedmineUP
+  label_agile_saving_boards: Salvando quadro
+  label_agile_horizontal_swim_lines: Linhas horizontais
+  label_agile_board_sub_columns: Quadro sub-colunas
+  label_agile_additional_agile_charts: Gráficos ágeis adicionais
+  label_agile_coloured_issue_cards: Cartões de emissão coloridos
+  label_agile_4_more_features: Mais 4 características...
+  label_agile_upgrade_to_pro: Atualize para a versão PRO para usar esses recursos
+
+  label_agile_day_in_state:  Em status
+
+  #1.3.10
+  label_agile_hide_closed_issues_data: Ocultar dados de tarefas fechados
+  project_module_agile: Ágil
+
+  #1.3.13
+  label_agile_last_comment: Último comentário
+
+  #1.4.0
+  label_agile_esitmate_units: Estimar unidades
+  label_agile_trackers_for_sp: Tipo para pontos por história
+  label_agile_story_points: Pontos por história
+  field_story_points: Pontos por história
+  label_agile_charts_number_of_story_points: Número de pontos por história
+  label_agile_board_columns: Colunas do quadro
+  lable_agile_wip_limit_exceeded: O limite de trabalho em andamento excedido
+  label_agile_wip_limit: Limite do trabalho em andamento
+  label_agile_add_new_issue: '+ ADICIONAR NOVA TAREFA'
+  label_agile_allow_create_cards: Criação do cartão
+  label_agile_auto_assign_on_move: Auto atribuir ao mover
+  text_agile_create_issue_error: Ocorreu um erro ao criar a tarefa
+  label_agile_inline_comment: Comentário em linha
+  label_agile_hours: Horas
+  field_color: Cores
+
+  field_duration: Duração
