@@ -63,7 +63,7 @@ echo "Redmine Avatar"
 git clone https://github.com/ncoders/redmine_local_avatars.git
 
 echo "Redmine Checklists"
-git clone https://github.com/m0kimura/redmine_checklists.git
+git clone https://github.com/Restream/redmine_issue_checklist.git
 
 echo "Finalizado a instalação de plugins"
 
