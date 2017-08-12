@@ -64,12 +64,6 @@ git clone https://github.com/ncoders/redmine_local_avatars.git
 
 echo "Redmine Checklists"
 git clone https://github.com/Restream/redmine_issue_checklist.git
-cd redmine_issue_checklist/config/locales/
-wget https://raw.githubusercontent.com/adrianobr/redmine_issue_checklist/90ab93a15ce839f11af342b396454f02c3bb406d/config/locales/pt.yml
-
-cd ..
-cd ..
-cd ..
 
 echo "Finalizado a instalação de plugins"
 
