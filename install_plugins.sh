@@ -65,10 +65,19 @@ git clone https://github.com/ncoders/redmine_local_avatars.git
 echo "Redmine Checklists"
 git clone https://github.com/Restream/redmine_issue_checklist.git
 
+echo "Redmine Banner"
+git clone https://github.com/akiko-pusu/redmine_banner.git
+
 echo "Finalizado a instalação de plugins"
 
 cd ..
 echo "---INICIANDO bundle install test---"
+
+echo "Adicionando arquivo de configuração"
+cd config
+wget https://raw.githubusercontent.com/adrianobr/redmine_upgrade/master/config/configuration.yml
+cd ..
+
 bundle install --without development test
 
 echo "Executando migrations de todos os plugins"
