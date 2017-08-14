@@ -1,10 +1,11 @@
-#echo "Atualizar/Upgrade do SO"
+# lembrar de atualizar as permissões no HOST: chmod -R a+w  /var/redmine_home/files/
+echo "Atualizar/Upgrade do SO"
 apt-get update && sudo apt-get upgrade
 
-#echo "Instalando o Build-Essential"
+echo "Instalando o Build-Essential"
 apt-get install build-essential
 
-#echo "Instalando o libstdc++6"
+echo "Instalando o libstdc++6"
 apt-get install libstdc++6
 
 echo "Atualizando Locales"
