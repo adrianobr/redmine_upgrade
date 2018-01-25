@@ -16,11 +16,11 @@ default:
     delivery_method: :smtp
     smtp_settings:
       enable_starttls_auto: true
-      address: "smtp.sysmo.com.br"
+      address: "smtp.x.com.br"
       port: 587
-      domain: "smtp.sysmo.com.br"
+      domain: "smtp.x.com.br"
       authentication: :login
-      user_name: "redmine@sysmo.com.br"
+      user_name: "redmine@x.com.br"
       password: "red1141"
       openssl_verify_mode: "none"
       tls: false
