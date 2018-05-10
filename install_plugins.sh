@@ -69,6 +69,9 @@ git clone https://github.com/Restream/redmine_issue_checklist.git
 echo "Redmine Banner"
 git clone https://github.com/akiko-pusu/redmine_banner.git
 
+echo "Redmine Percent Done"
+git clone https://github.com/jkraemer/redmine_percent_done.git
+
 echo "Finalizado a instalação de plugins"
 
 cd ..
